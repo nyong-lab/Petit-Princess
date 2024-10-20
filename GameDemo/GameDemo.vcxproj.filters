@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ENTRYPOINT">
+      <UniqueIdentifier>{37ef7b68-b1fc-4081-b70b-83ff82b74b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{40267607-af96-4c76-a118-1cc0a2b27282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor">
+      <UniqueIdentifier>{a2b98d2f-5c87-4ded-914f-13ef0017300a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugProcess">
+      <UniqueIdentifier>{8a0b98a5-d31b-48d5-a503-0c21bc37887e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Andromeda">
+      <UniqueIdentifier>{2b75f50a-163c-41ea-8788-30fab1c41811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Gui">
+      <UniqueIdentifier>{014c6a4e-866d-4ea5-9679-d774da55eb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Gui\Hierarchy">
+      <UniqueIdentifier>{568332b4-023b-48d4-83fd-0fe3e883a22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Gui\Docking">
+      <UniqueIdentifier>{dd7ac9d5-d0aa-486e-8d82-3b02967ef979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Gui\Manager">
+      <UniqueIdentifier>{a02783df-ef97-4d33-94e9-a56c58e0972e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Gui\Project">
+      <UniqueIdentifier>{88237413-74fa-49ba-83f6-3686f52db9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Gui\Inspector">
+      <UniqueIdentifier>{d5c41827-2659-4123-8990-d39f8101008f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\ImGui">
+      <UniqueIdentifier>{2355431c-20c9-4f5d-8f06-ad5205b9053a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Editor">
+      <UniqueIdentifier>{7e756ddf-89a7-4ba8-afc2-90a49efad3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefab">
+      <UniqueIdentifier>{da46f16a-9d13-4e25-a411-da7cb352a7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{de428397-c474-4be0-b2b5-c047f8a42d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PetitePrincess">
+      <UniqueIdentifier>{aba939a2-6f63-40c4-a4a9-67f8ad7e2312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{20b9536c-437d-4d62-929f-22f205e6f25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\TestScript">
+      <UniqueIdentifier>{9ac1d5a4-f0f8-42b7-b42e-4a8941033f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7e17ca0c-0f4f-4d44-b34a-f24ada530782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Dongil">
+      <UniqueIdentifier>{a0f18b6a-3f95-4f2f-8de5-8f299a5a3b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TestScene">
+      <UniqueIdentifier>{9536cba6-bcb5-42c9-9322-87e8422adff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SunWoong">
+      <UniqueIdentifier>{a50eae65-6206-4430-bb0c-bc3fc12dcde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Yeonha">
+      <UniqueIdentifier>{ae6741cb-1e9f-4aab-b4bd-1bac2ad4f280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Seunwoon">
+      <UniqueIdentifier>{be403d87-1783-48eb-bd49-5e3ac3772c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Sh">
+      <UniqueIdentifier>{b07d1cb6-a179-4933-b876-f8d36892c178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{0e88ffed-ada1-4a59-a473-eb96798bf27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEditor\Gui\Several">
+      <UniqueIdentifier>{0149c94a-48d0-4eb5-b487-2f9e9ca7c51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Guard">
+      <UniqueIdentifier>{6cfb18ae-adaf-4a53-bc21-70439d493495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player">
+      <UniqueIdentifier>{ece2dc74-0dd9-47ad-9815-b450f5100eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\ShopKeeper">
+      <UniqueIdentifier>{a7953b28-2052-4e15-a506-76647922596c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Guard">
+      <UniqueIdentifier>{8440969b-9f7e-4a3d-8d74-6477269414f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ShopKeeper">
+      <UniqueIdentifier>{25d47cd7-8b8e-4447-8b07-29ad9fad221d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Camera">
+      <UniqueIdentifier>{6c867d66-80f1-499d-a7b0-d49519a21b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Jiwon">
+      <UniqueIdentifier>{6aedd2a4-b347-4e7e-a2a1-ce37ed90f670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameScene">
+      <UniqueIdentifier>{87c330bc-304f-4adf-8f9e-ca1342744045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameScene\Title">
+      <UniqueIdentifier>{45960a96-2019-474b-b01c-c9f5717e277c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Dongil">
+      <UniqueIdentifier>{9f7a7a0f-d339-4c04-8b23-f201bde31ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ShopKeeper\CallingRange">
+      <UniqueIdentifier>{ba4ab41b-c87e-4940-8ee1-d95c5c481243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ShopKeeper\Doubt">
+      <UniqueIdentifier>{8c7f42f8-e56e-4ea6-bc0f-0db448d8df55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{fd077521-47a1-4801-ad0d-bbf55ebbb04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\MiniGame">
+      <UniqueIdentifier>{8f0660a4-3001-4365-aeb1-1d0508edd52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\HideAction">
+      <UniqueIdentifier>{43f0c1c2-6f80-4ce0-ab35-de4666e8b3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefab\Bush">
+      <UniqueIdentifier>{d722da0d-d450-46f4-bb61-8be25619eb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefab\Guard">
+      <UniqueIdentifier>{1a87780a-2043-4fd0-ba39-42cd7400874b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefab\Player">
+      <UniqueIdentifier>{573584d2-c6e1-49b8-a5d1-1a0e550fc057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\IngameUI">
+      <UniqueIdentifier>{312d2ac5-835e-47c0-a886-8abb2c7f0de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Light">
+      <UniqueIdentifier>{77fc1085-50ac-48ec-b5db-ec5cc89bd354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\TechniquesEntity">
+      <UniqueIdentifier>{fde49df8-0ab5-4a60-bf5a-0d89d08e059d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ThrowItem">
+      <UniqueIdentifier>{2b9e93da-f4d0-4f46-b814-f1cc228ab3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameScene\STAGE1">
+      <UniqueIdentifier>{11086e0a-e186-4599-80b9-a4a50eb9f5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameScene\Ending">
+      <UniqueIdentifier>{dccb2316-01aa-44ab-a7f9-4dede4899da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefab\UI">
+      <UniqueIdentifier>{fde7b879-4314-43e8-b4c4-c1f75123f1b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugProcess.h">
+      <Filter>DebugProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyGui.h">
+      <Filter>GameEditor\Gui\Hierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGui.h">
+      <Filter>GameEditor\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectGui.h">
+      <Filter>GameEditor\Gui\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="InspectorGui.h">
+      <Filter>GameEditor\Gui\Inspector</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGui.h">
+      <Filter>GameEditor\Gui\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DockingGui.h">
+      <Filter>GameEditor\Gui\Docking</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_stdlib.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IEditor.h">
+      <Filter>GameEditor\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>GameEditor\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBox.h">
+      <Filter>Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMap.h">
+      <Filter>Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="SeveralGui.h">
+      <Filter>GameEditor\Gui\Several</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="TestingScript.h">
+      <Filter>Script\TestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="DongilScene.h">
+      <Filter>Scene\Dongil</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Scene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PetitePrincess.h">
+      <Filter>PetitePrincess</Filter>
+    </ClInclude>
+    <ClInclude Include="SunWoongScene.h">
+      <Filter>Scene\SunWoong</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelTest.h">
+      <Filter>Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="YeonhaScene.h">
+      <Filter>Scene\Yeonha</Filter>
+    </ClInclude>
+    <ClInclude Include="UITestScript.h">
+      <Filter>Script\TestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="AstarScene.h">
+      <Filter>Scene\Seunwoon</Filter>
+    </ClInclude>
+    <ClInclude Include="SeoheeScene.h">
+      <Filter>Scene\Sh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDemo_pch.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBox.h">
+      <Filter>Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardFSM.h">
+      <Filter>FSM\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFSM.h">
+      <Filter>FSM\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopKeeperFSM.h">
+      <Filter>FSM\ShopKeeper</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardScript.h">
+      <Filter>Script\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="PetitCamera.h">
+      <Filter>Script\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveScript.h">
+      <Filter>Script\TestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene\GameScene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="DongilScript.h">
+      <Filter>Script\Dongil</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopKeeperCallingScript.h">
+      <Filter>Script\ShopKeeper\CallingRange</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopKeeperDoubtScript.h">
+      <Filter>Script\ShopKeeper\Doubt</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameDefine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodTableScript.h">
+      <Filter>Script\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="InterKeyScript.h">
+      <Filter>Script\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickTimeEventScript.h">
+      <Filter>Script\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="candy.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="gradient.h">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="HideAutomaticScript.h">
+      <Filter>Script\HideAction</Filter>
+    </ClInclude>
+    <ClInclude Include="HideInteractionScript.h">
+      <Filter>Script\HideAction</Filter>
+    </ClInclude>
+    <ClInclude Include="autoBush.h">
+      <Filter>Prefab\Bush</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionBush.h">
+      <Filter>Prefab\Bush</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardPrefab.h">
+      <Filter>Prefab\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPrefab.h">
+      <Filter>Prefab\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShTest.h">
+      <Filter>Script\TestScript</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerUI.h">
+      <Filter>Script\IngameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SunLight.h">
+      <Filter>Script\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="TorchLight.h">
+      <Filter>Script\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="TechniquesScript.h">
+      <Filter>Script\TechniquesEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowItemScript.h">
+      <Filter>Script\ThrowItem</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>Script\IngameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE1.h">
+      <Filter>Scene\GameScene\STAGE1</Filter>
+    </ClInclude>
+    <ClInclude Include="FishRangeScript.h">
+      <Filter>Script\ThrowItem</Filter>
+    </ClInclude>
+    <ClInclude Include="JiwonScene.h">
+      <Filter>Scene\Jiwon</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreUI.h">
+      <Filter>Script\IngameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUpUI.h">
+      <Filter>Script\IngameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDataSyncScript.h" />
+    <ClInclude Include="MerchantUI.h">
+      <Filter>Script\IngameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDeliciousFood.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGauge.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHungry.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMinimap.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMinimapCurPos.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMiniMapIcon.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIReVisitCoolTime.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UISense.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UISkill.h">
+      <Filter>Prefab\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyEnding.h">
+      <Filter>Scene\GameScene\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaseRangeScript.h">
+      <Filter>Script\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="HungryEnding.h">
+      <Filter>Scene\GameScene\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBlack.h" />
+    <ClInclude Include="HideInterKeyScript.h">
+      <Filter>Script\HideAction</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardUI.h">
+      <Filter>Script\IngameUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>ENTRYPOINT</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugProcess.cpp">
+      <Filter>DebugProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyGui.cpp">
+      <Filter>GameEditor\Gui\Hierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGui.cpp">
+      <Filter>GameEditor\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectGui.cpp">
+      <Filter>GameEditor\Gui\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectorGui.cpp">
+      <Filter>GameEditor\Gui\Inspector</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGui.cpp">
+      <Filter>GameEditor\Gui\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DockingGui.cpp">
+      <Filter>GameEditor\Gui\Docking</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_stdlib.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>GameEditor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>GameEditor\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBox.cpp">
+      <Filter>Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMap.cpp">
+      <Filter>Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="SeveralGui.cpp">
+      <Filter>GameEditor\Gui\Several</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="TestingScript.cpp">
+      <Filter>Script\TestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="DongilScene.cpp">
+      <Filter>Scene\Dongil</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Scene\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PetitePrincess.cpp">
+      <Filter>PetitePrincess</Filter>
+    </ClCompile>
+    <ClCompile Include="SunWoongScene.cpp">
+      <Filter>Scene\SunWoong</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelTest.cpp">
+      <Filter>Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="YeonhaScene.cpp">
+      <Filter>Scene\Yeonha</Filter>
+    </ClCompile>
+    <ClCompile Include="UITestScript.cpp">
+      <Filter>Script\TestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="AstarScene.cpp">
+      <Filter>Scene\Seunwoon</Filter>
+    </ClCompile>
+    <ClCompile Include="SeoheeScene.cpp">
+      <Filter>Scene\Sh</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDemo_pch.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBox.cpp">
+      <Filter>Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardFSM.cpp">
+      <Filter>FSM\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFSM.cpp">
+      <Filter>FSM\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopKeeperFSM.cpp">
+      <Filter>FSM\ShopKeeper</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardScript.cpp">
+      <Filter>Script\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="PetitCamera.cpp">
+      <Filter>Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveScript.cpp">
+      <Filter>Script\TestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="JiwonScene.cpp">
+      <Filter>Scene\Jiwon</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene\GameScene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="PetitCamera.cpp">
+      <Filter>Script\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DongilScript.cpp">
+      <Filter>Script\Dongil</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopKeeperCallingScript.cpp">
+      <Filter>Script\ShopKeeper\CallingRange</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopKeeperDoubtScript.cpp">
+      <Filter>Script\ShopKeeper\Doubt</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodTableScript.cpp">
+      <Filter>Script\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InterKeyScript.cpp">
+      <Filter>Script\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGameManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickTimeEventScript.cpp">
+      <Filter>Script\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="HideAutomaticScript.cpp">
+      <Filter>Script\HideAction</Filter>
+    </ClCompile>
+    <ClCompile Include="HideInteractionScript.cpp">
+      <Filter>Script\HideAction</Filter>
+    </ClCompile>
+    <ClCompile Include="autoBush.cpp">
+      <Filter>Prefab\Bush</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionBush.cpp">
+      <Filter>Prefab\Bush</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardPrefab.cpp">
+      <Filter>Prefab\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPrefab.cpp">
+      <Filter>Prefab\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShTest.cpp">
+      <Filter>Script\TestScript</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerUI.cpp">
+      <Filter>Script\IngameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SunLight.cpp">
+      <Filter>Script\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="TorchLight.cpp">
+      <Filter>Script\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="TechniquesScript.cpp">
+      <Filter>Script\TechniquesEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowItemScript.cpp">
+      <Filter>Script\ThrowItem</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>Script\IngameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE1.cpp">
+      <Filter>Scene\GameScene\STAGE1</Filter>
+    </ClCompile>
+    <ClCompile Include="FishRangeScript.cpp">
+      <Filter>Script\ThrowItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreUI.cpp">
+      <Filter>Script\IngameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpUI.cpp">
+      <Filter>Script\IngameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDataSyncScript.cpp" />
+    <ClCompile Include="MerchantUI.cpp">
+      <Filter>Script\IngameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDeliciousFood.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGauge.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHungry.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMinimap.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMinimapCurPos.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMiniMapIcon.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIReVisitCoolTime.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UISense.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UISkill.cpp">
+      <Filter>Prefab\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyEnding.cpp">
+      <Filter>Scene\GameScene\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaseRangeScript.cpp">
+      <Filter>Script\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="HungryEnding.cpp">
+      <Filter>Scene\GameScene\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBlack.cpp" />
+    <ClCompile Include="HideInterKeyScript.cpp">
+      <Filter>Script\HideAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardUI.cpp">
+      <Filter>Script\IngameUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameDemo.ico">
+      <Filter>Andromeda</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Andromeda</Filter>
+    </Image>
+    <Image Include="icon.ico">
+      <Filter>Andromeda</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameDemo.rc">
+      <Filter>Andromeda</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

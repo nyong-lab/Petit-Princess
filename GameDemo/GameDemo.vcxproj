@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3cc2065f-09b2-4c9b-87d9-133bdf490f30}</ProjectGuid>
+    <RootNamespace>GameDemo</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GameDemo</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>GameDemo_pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>GameDemo_pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>GameDemo_pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)MathModule;$(SolutionDir)Reflection;$(SolutionDir)DX11Renderer;$(SolutionDir)GameEngine;$(SolutionDir)Libraries/include/DXTK;$(SolutionDir)Libraries/include/Physx;$(SolutionDir)Libraries/include/Fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64/Debug;$(SolutionDir)Libraries/lib/debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DX11Renderer.lib;GameEngine.lib;Reflection.lib;MathModule.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>GameDemo_pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)MathModule;$(SolutionDir)DX11Renderer;$(SolutionDir)GameEngine;$(SolutionDir)Reflection;$(SolutionDir)Libraries/include/Physx;$(SolutionDir)Libraries/include/DXTK;$(SolutionDir)Libraries/include/Fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64/Release;$(SolutionDir)Libraries/lib/release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DX11Renderer.lib;GameEngine.lib;Reflection.lib;MathModule.lib;PhysX_64.lib;PhysXCommon_64.lib;physXCooking_64.lib;PhysXFoundation_64.lib;PhysXExtensions_static_64.lib;SceneQuery_static_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AstarScene.h" />
+    <ClInclude Include="autoBush.h" />
+    <ClInclude Include="BaseGui.h" />
+    <ClInclude Include="candy.h" />
+    <ClInclude Include="ChaseRangeScript.h" />
+    <ClInclude Include="CubeMap.h" />
+    <ClInclude Include="DebugProcess.h" />
+    <ClInclude Include="DockingGui.h" />
+    <ClInclude Include="DongilScene.h" />
+    <ClInclude Include="DongilScript.h" />
+    <ClInclude Include="FishRangeScript.h" />
+    <ClInclude Include="FoodTableScript.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameProcess.h" />
+    <ClInclude Include="GameDemo_pch.h" />
+    <ClInclude Include="gradient.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="GuardFSM.h" />
+    <ClInclude Include="GuardPrefab.h" />
+    <ClInclude Include="GuardScript.h" />
+    <ClInclude Include="GuardUI.h" />
+    <ClInclude Include="HappyEnding.h" />
+    <ClInclude Include="HideAutomaticScript.h" />
+    <ClInclude Include="HideInteractionScript.h" />
+    <ClInclude Include="HideInterKeyScript.h" />
+    <ClInclude Include="HierarchyGui.h" />
+    <ClInclude Include="HungryEnding.h" />
+    <ClInclude Include="IEditor.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="imgui_impl_dx11.h" />
+    <ClInclude Include="imgui_impl_win32.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="imgui_stdlib.h" />
+    <ClInclude Include="imstb_rectpack.h" />
+    <ClInclude Include="imstb_textedit.h" />
+    <ClInclude Include="imstb_truetype.h" />
+    <ClInclude Include="InspectorGui.h" />
+    <ClInclude Include="InteractionBush.h" />
+    <ClInclude Include="InterKeyScript.h" />
+    <ClInclude Include="JiwonScene.h" />
+    <ClInclude Include="MainUI.h" />
+    <ClInclude Include="MerchantUI.h" />
+    <ClInclude Include="MiniGameDefine.h" />
+    <ClInclude Include="MiniGameManager.h" />
+    <ClInclude Include="ModelTest.h" />
+    <ClInclude Include="PetitCamera.h" />
+    <ClInclude Include="PetitePrincess.h" />
+    <ClInclude Include="PlayerFSM.h" />
+    <ClInclude Include="PlayerMoveScript.h" />
+    <ClInclude Include="PlayerPrefab.h" />
+    <ClInclude Include="PopUpUI.h" />
+    <ClInclude Include="QuickTimeEventScript.h" />
+    <ClInclude Include="RedBox.h" />
+    <ClInclude Include="ScoreUI.h" />
+    <ClInclude Include="ShopKeeperCallingScript.h" />
+    <ClInclude Include="ShopKeeperFSM.h" />
+    <ClInclude Include="SeoheeScene.h" />
+    <ClInclude Include="ShopKeeperDoubtScript.h" />
+    <ClInclude Include="ShTest.h" />
+    <ClInclude Include="STAGE1.h" />
+    <ClInclude Include="State.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SunLight.h" />
+    <ClInclude Include="SunWoongScene.h" />
+    <ClInclude Include="SeveralGui.h" />
+    <ClInclude Include="TechniquesScript.h" />
+    <ClInclude Include="TestingScript.h" />
+    <ClInclude Include="TextureBox.h" />
+    <ClInclude Include="ThrowItemScript.h" />
+    <ClInclude Include="TimerUI.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="TorchLight.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UIBlack.h" />
+    <ClInclude Include="UIDataSyncScript.h" />
+    <ClInclude Include="UIDeliciousFood.h" />
+    <ClInclude Include="UIGauge.h" />
+    <ClInclude Include="UIHungry.h" />
+    <ClInclude Include="UIMinimap.h" />
+    <ClInclude Include="UIMinimapCurPos.h" />
+    <ClInclude Include="UIMiniMapIcon.h" />
+    <ClInclude Include="UIReVisitCoolTime.h" />
+    <ClInclude Include="UISense.h" />
+    <ClInclude Include="UISkill.h" />
+    <ClInclude Include="UITestScript.h" />
+    <ClInclude Include="WorldGui.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="ProjectGui.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="YeonhaScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AstarScene.cpp" />
+    <ClCompile Include="autoBush.cpp" />
+    <ClCompile Include="BaseGui.cpp" />
+    <ClCompile Include="ChaseRangeScript.cpp" />
+    <ClCompile Include="CubeMap.cpp" />
+    <ClCompile Include="DebugProcess.cpp" />
+    <ClCompile Include="DockingGui.cpp" />
+    <ClCompile Include="DongilScene.cpp" />
+    <ClCompile Include="DongilScript.cpp" />
+    <ClCompile Include="EntryPoint.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="FishRangeScript.cpp" />
+    <ClCompile Include="FoodTableScript.cpp" />
+    <ClCompile Include="FSM.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameProcess.cpp" />
+    <ClCompile Include="GameDemo_pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="GuardFSM.cpp" />
+    <ClCompile Include="GuardPrefab.cpp" />
+    <ClCompile Include="GuardScript.cpp" />
+    <ClCompile Include="GuardUI.cpp" />
+    <ClCompile Include="HappyEnding.cpp" />
+    <ClCompile Include="HideAutomaticScript.cpp" />
+    <ClCompile Include="HideInteractionScript.cpp" />
+    <ClCompile Include="HideInterKeyScript.cpp" />
+    <ClCompile Include="HierarchyGui.cpp" />
+    <ClCompile Include="HungryEnding.cpp" />
+    <ClCompile Include="imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui_stdlib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="InspectorGui.cpp" />
+    <ClCompile Include="InteractionBush.cpp" />
+    <ClCompile Include="InterKeyScript.cpp" />
+    <ClCompile Include="JiwonScene.cpp" />
+    <ClCompile Include="MainUI.cpp" />
+    <ClCompile Include="MerchantUI.cpp" />
+    <ClCompile Include="MiniGameManager.cpp" />
+    <ClCompile Include="ModelTest.cpp" />
+    <ClCompile Include="PetitCamera.cpp" />
+    <ClCompile Include="PetitePrincess.cpp" />
+    <ClCompile Include="PlayerFSM.cpp" />
+    <ClCompile Include="PlayerMoveScript.cpp" />
+    <ClCompile Include="PlayerPrefab.cpp" />
+    <ClCompile Include="PopUpUI.cpp" />
+    <ClCompile Include="QuickTimeEventScript.cpp" />
+    <ClCompile Include="RedBox.cpp" />
+    <ClCompile Include="ScoreUI.cpp" />
+    <ClCompile Include="ShopKeeperCallingScript.cpp" />
+    <ClCompile Include="ShopKeeperFSM.cpp" />
+    <ClCompile Include="SeoheeScene.cpp" />
+    <ClCompile Include="ShopKeeperDoubtScript.cpp" />
+    <ClCompile Include="ShTest.cpp" />
+    <ClCompile Include="STAGE1.cpp" />
+    <ClCompile Include="State.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SunLight.cpp" />
+    <ClCompile Include="SunWoongScene.cpp" />
+    <ClCompile Include="SeveralGui.cpp" />
+    <ClCompile Include="TechniquesScript.cpp" />
+    <ClCompile Include="TestingScript.cpp" />
+    <ClCompile Include="TextureBox.cpp" />
+    <ClCompile Include="ThrowItemScript.cpp" />
+    <ClCompile Include="TimerUI.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TorchLight.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UIBlack.cpp" />
+    <ClCompile Include="UIDataSyncScript.cpp" />
+    <ClCompile Include="UIDeliciousFood.cpp" />
+    <ClCompile Include="UIGauge.cpp" />
+    <ClCompile Include="UIHungry.cpp" />
+    <ClCompile Include="UIMinimap.cpp" />
+    <ClCompile Include="UIMinimapCurPos.cpp" />
+    <ClCompile Include="UIMiniMapIcon.cpp" />
+    <ClCompile Include="UIReVisitCoolTime.cpp" />
+    <ClCompile Include="UISense.cpp" />
+    <ClCompile Include="UISkill.cpp" />
+    <ClCompile Include="UITestScript.cpp" />
+    <ClCompile Include="WorldGui.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="ProjectGui.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="YeonhaScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameDemo.ico" />
+    <Image Include="icon.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameEngine\GameEngine.vcxproj">
+      <Project>{e427c1dc-e94d-444e-8cc3-34381f14fc57}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

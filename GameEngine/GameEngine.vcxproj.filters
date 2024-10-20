@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{57d643ce-42d7-494d-b6c2-1121c06ae4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ResourceManager">
+      <UniqueIdentifier>{3c7e7f81-f5bd-4884-991d-6826d3710009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{a617ea2b-8623-4559-8b4f-559f98fe1e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneManager">
+      <UniqueIdentifier>{eae7ceea-5f64-414c-a61b-12eb216a032b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SoundManager">
+      <UniqueIdentifier>{3e8b8cc3-f80e-4455-bbe4-62ead28f8876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\InputManager">
+      <UniqueIdentifier>{bbb00c06-03ee-4872-bfd7-415039b6e947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{b7c84814-1020-4d10-a6d1-9a3417427d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{ec3a66a4-d044-4127-bb37-e6e4c2e61399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Timer">
+      <UniqueIdentifier>{341439ab-02f9-4b97-baa0-d4777d99f208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\EntityFactory">
+      <UniqueIdentifier>{35c7eabc-da5c-4dc2-ac59-7945397c3e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{cd5f4c98-8df6-4673-80d3-5d09aca3174d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\IFactory">
+      <UniqueIdentifier>{c373ab6f-ab56-4d21-9f80-1edf0b91b0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\IComponent">
+      <UniqueIdentifier>{e75a5d45-cf29-4438-9ab2-d21ab9843b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\IBuilder">
+      <UniqueIdentifier>{7826a876-faee-4201-9cd5-bf89c01f2ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{6d822fcc-c394-40ba-9a83-0a21afe71cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\IEntity">
+      <UniqueIdentifier>{d0672f5f-2c25-4828-9c62-87e9824dfe2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\IManager">
+      <UniqueIdentifier>{c6948895-dcef-416e-aed4-294518e624d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\EventManager">
+      <UniqueIdentifier>{69fe38af-f4f9-48e1-b42a-03b63c611ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CameraManager">
+      <UniqueIdentifier>{9e6fdb16-4428-48e2-9d6c-094c0f0bd86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{382d3e28-b9e7-49b0-b5cf-6339815f48e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\IResource">
+      <UniqueIdentifier>{78975898-f1d0-40f8-bfd2-d1868b2ec353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Sound">
+      <UniqueIdentifier>{4c263c8c-d554-4a12-ac2e-063108aeef12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder">
+      <UniqueIdentifier>{5d54481a-8b15-433c-80aa-a4c6e980dd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CollisionManager">
+      <UniqueIdentifier>{1f7017ad-bcc3-4ade-9155-0780d38b8286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{849f4b19-2d76-4420-a91e-4a7fb02ecfcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\Transform">
+      <UniqueIdentifier>{bf23c061-a8b5-47f7-93bf-fcaebe2e1a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\Colider">
+      <UniqueIdentifier>{b7b608f8-3050-4b09-b0ff-ba3e6fa99c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\MeshRender">
+      <UniqueIdentifier>{71c79b8f-ad3e-4f2e-8159-7593406e0e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CameraManager\Camera">
+      <UniqueIdentifier>{0ac23148-4a11-4847-976c-b01eda3098e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\PathManager">
+      <UniqueIdentifier>{4dc5ead3-86b6-463e-b261-3e88dbcb9c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CollisionManager\Utils">
+      <UniqueIdentifier>{27cffbef-8f96-42e4-93a0-3c7f0b955527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{8dfc5336-58d7-4b15-a6d1-162dd0cc97be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Renderer">
+      <UniqueIdentifier>{ed4248bd-96bd-47a0-a28d-73e6da890ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Transform">
+      <UniqueIdentifier>{6fa9d487-7670-43bc-bbb1-efb6729a311f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{a0d0cfab-0b63-4bd7-b208-2b907cc7d8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\-LSY-">
+      <UniqueIdentifier>{53ebb9a9-2c5c-491a-bc54-1e4078560668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\UserScript">
+      <UniqueIdentifier>{301d6a96-7bec-4488-b09d-1843335efcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Light">
+      <UniqueIdentifier>{52ac0a94-72c4-495b-8fbd-a22ac357370d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{12e065dd-2dea-484f-bdf4-1eefc90b87ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider\MeshFilter">
+      <UniqueIdentifier>{852a4461-e6bb-4ed3-b761-4e4e085754db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Interface\IComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Manager\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntity.h">
+      <Filter>Interface\IEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>Interface\IFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFactory.h">
+      <Filter>Factory\EntityFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="IBuilder.h">
+      <Filter>Interface\IBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IManager.h">
+      <Filter>Interface\IManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Manager\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDefine.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IResource.h">
+      <Filter>Interface\IResource</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeIndex.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformBulider.h">
+      <Filter>Builder\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxColiderBulider.h">
+      <Filter>Builder\Colider</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderBuilder.h">
+      <Filter>Builder\MeshRender</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModule.h">
+      <Filter>Manager\CameraManager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Manager\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManagerSeoYoung.h">
+      <Filter>Component\Collider\-LSY-</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Component\Collider\-LSY-</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneCollider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Component\UserScript</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Manager\PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionFilter.h">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ParadisePxErrorCallback.h">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ParadisePxEventCallback.h">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialize.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFilter.h">
+      <Filter>Component\Collider\MeshFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="ParadiseRaycastCallback.h">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCaster.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRender.h">
+      <Filter>Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine_pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Manager\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFactory.cpp">
+      <Filter>Factory\EntityFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Manager\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeIndex.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformBulider.cpp">
+      <Filter>Builder\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxColiderBulider.cpp">
+      <Filter>Builder\Colider</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderBuilder.cpp">
+      <Filter>Builder\MeshRender</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraModule.cpp">
+      <Filter>Manager\CameraManager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Manager\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManagerSeoYoung.cpp">
+      <Filter>Component\Collider\-LSY-</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Component\Collider\-LSY-</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneCollider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCollider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Component\UserScript</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Manager\PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ParadisePxErrorCallback.cpp">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ParadisePxEventCallback.cpp">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionFilter.cpp">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialize.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFilter.cpp">
+      <Filter>Component\Collider\MeshFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="ParadiseRaycastCallback.cpp">
+      <Filter>Manager\CollisionManager\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCaster.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRender.cpp">
+      <Filter>Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine_pch.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameEngine.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{da2e2ae9-3cbb-4057-aed2-bc1abdf50a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{08f0a639-6b3c-4dfb-b590-b9700379129d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader">
+      <UniqueIdentifier>{246d9d89-872b-4e8f-8dab-8adcaf22fa9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{063a4fc9-1330-4dff-b150-06e74eeb1ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Material">
+      <UniqueIdentifier>{4c8b2e88-5b57-4bd5-9fa0-d62c12f1c189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader\PixelShader">
+      <UniqueIdentifier>{f0921952-2258-4cfc-87ba-99a5afe4edff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader\VertexShader">
+      <UniqueIdentifier>{b88fdb9f-e339-4f14-b236-81f5b2e4d207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine">
+      <UniqueIdentifier>{cc4fd17d-5772-40bc-8cd0-586304521f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\ConstantBuffer">
+      <UniqueIdentifier>{f59ef82c-71d5-4a05-a301-066f792ef20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Animation">
+      <UniqueIdentifier>{37369e45-8d2b-4ecb-afbb-05355300b7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Model">
+      <UniqueIdentifier>{08822b20-93ed-49a0-a9fd-a8965fb8d8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Bone">
+      <UniqueIdentifier>{0aa00fd0-592d-4964-81d2-9170f6ad107d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\BindState">
+      <UniqueIdentifier>{d12442ba-0067-4047-ae77-088823f7f7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Mesh">
+      <UniqueIdentifier>{0c94df94-bf78-4e94-ac7b-f7781e8c16c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Header">
+      <UniqueIdentifier>{dbbd2b38-bac0-45ee-9257-47f4b91a11f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Header\pch">
+      <UniqueIdentifier>{719bf8dc-3ef1-45bc-bc4f-7ec973b1018b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Header\Exeption">
+      <UniqueIdentifier>{535ff83f-d72b-4661-9be1-6913bb26c677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Header\Exeption\dxerr">
+      <UniqueIdentifier>{72f44777-9d75-476c-b7fc-dc9c52374613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader\DefferedVS">
+      <UniqueIdentifier>{881fe297-75e1-491a-9016-b8eb6c1a673b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader\DefferedPS">
+      <UniqueIdentifier>{19821052-54a9-4351-8523-6e678615f3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader\Import">
+      <UniqueIdentifier>{b06bad48-b581-45be-8976-71a018039ab1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorLogger.h">
+      <Filter>Interface\Header\Exeption</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMacro.h">
+      <Filter>Interface\Header\Exeption</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Interface\Header\Exeption\dxerr</Filter>
+    </ClInclude>
+    <ClInclude Include="renderpch.h">
+      <Filter>Interface\Header\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DXResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Resource\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferData.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IResource.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IDevice.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Resource\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPath.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXManager.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialColor.h">
+      <Filter>Resource\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>Resource\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Resource\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Resource\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="BindState.h">
+      <Filter>Resource\BindState</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ErrorLogger.cpp">
+      <Filter>Interface\Header\Exeption</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Interface\Header\Exeption\dxerr</Filter>
+    </ClCompile>
+    <ClCompile Include="renderpch.cpp">
+      <Filter>Interface\Header\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphics.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="DXResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Resource\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferData.cpp">
+      <Filter>Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Resource\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DXManager.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPath.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialColor.cpp">
+      <Filter>Resource\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>Resource\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Resource\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Resource\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="BindState.cpp">
+      <Filter>Resource\BindState</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXGetErrorDescription.inl">
+      <Filter>Interface\Header\Exeption\dxerr</Filter>
+    </None>
+    <None Include="DXGetErrorString.inl">
+      <Filter>Interface\Header\Exeption\dxerr</Filter>
+    </None>
+    <None Include="DXTrace.inl">
+      <Filter>Interface\Header\Exeption\dxerr</Filter>
+    </None>
+    <None Include="LightHelper.hlsli">
+      <Filter>Resource\Shader\Import</Filter>
+    </None>
+    <None Include="BRDF.hlsli">
+      <Filter>Resource\Shader\Import</Filter>
+    </None>
+    <None Include="ShaderDefine.hlsli">
+      <Filter>Resource\Shader\Import</Filter>
+    </None>
+    <None Include="Functions.hlsli">
+      <Filter>Resource\Shader\Import</Filter>
+    </None>
+    <None Include="BloomUtils.hlsli">
+      <Filter>Resource\Shader\Import</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="GridPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="GridVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SimpleBoxPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SimpleBoxVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyboxPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyboxVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ColliderPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="UIVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="UIPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SkinnedVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SkinnedPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedGbufferVS.hlsl">
+      <Filter>Resource\Shader\DefferedVS</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedProcessVS.hlsl">
+      <Filter>Resource\Shader\DefferedVS</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedSkinnedVS.hlsl">
+      <Filter>Resource\Shader\DefferedVS</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedGbufferPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedTestPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedDirLightPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedColliderPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedDefaultObjectPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="AttachedUIPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredShadowDepthVS.hlsl">
+      <Filter>Resource\Shader\DefferedVS</Filter>
+    </FxCompile>
+    <FxCompile Include="AttachedUIVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferedFXAAPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredShadowDepthPS.hlsl" />
+    <FxCompile Include="DeferredShadowStaticVS.hlsl" />
+    <FxCompile Include="MiniGameVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MiniGamePS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="BlurXPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="BlurYPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="BloomPS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="DownSamplePS.hlsl">
+      <Filter>Resource\Shader\DefferedPS</Filter>
+    </FxCompile>
+    <FxCompile Include="DownSampleVS.hlsl">
+      <Filter>Resource\Shader\DefferedVS</Filter>
+    </FxCompile>
+    <FxCompile Include="TimerPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="TimerVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MainUIVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="HungryPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MainUIPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SensePS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="DeliciousFoodPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="ReVisitCoolTimePS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SingleImgUIPS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="SingleImgUIVS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MinimapPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="MerchantUIPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="EatSpotVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="EatSpotPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="UISkillPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="UIBlackPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="HideInterKeyVS.hlsl">
+      <Filter>Resource\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="GuardUIPS.hlsl">
+      <Filter>Resource\Shader\PixelShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Key.txt">
+      <Filter>Resource</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
